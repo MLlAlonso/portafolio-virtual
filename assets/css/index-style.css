@@ -289,6 +289,36 @@ html {
     line-height: 60px;
 }
 
+/* Google translate element*/
+
+#google_translate_element{
+    margin-top: 1rem;
+}
+
+/* Ajustar el tamaño y estilo del botón de traducción */
+body .goog-te-gadget {
+    font-size: 10px; /* Tamaño de fuente más pequeño */
+}
+
+body .goog-te-menu-value {
+    padding: 3px; /* Relleno interno más pequeño */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+body .goog-te-button {
+    padding: 3px 5px; /* Ajustar el padding del botón */
+    font-size: 10px; /* Tamaño de fuente más pequeño */
+    border: none; /* Eliminar borde */
+    background-color: #007bff; /* Cambiar el color de fondo */
+    color: white; /* Cambiar el color del texto */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor a puntero */
+}
+
+body .goog-te-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
 
 /* Section */
 
